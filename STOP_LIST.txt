@@ -1,0 +1,61 @@
+LIST OF STOP WORDS :
+-----------------------------------------------------------------
+
+the
+of
+and
+in
+to
+a
+is
+on
+as
+for
+was
+by
+with
+from
+s
+that
+at
+it
+are
+hurricane
+were
+edit
+or
+an
+which
+storm
+tropical
+this
+be
+also
+its
+1
+new
+km
+has
+2
+state
+have
+
+
+EXPLANATION : 
+-----------------------------------------------------------------
+
+1. Find the term frequency table for all the links.
+2. Arrange them in Descending order
+3. Pick stop words as mentioned below: 
+
+Those words that add no/very less value to the term frequency table for evaluation are excluded from the process and put under "Stop List". Here, the cutoff value is chosen to be 38 as most of the words in the top 38 are prepositions/articles/numbers as these words have no/less value.
+
+However, while excluding these as stop words, some relevant words also come in. These are hand filtered and included back to the term frequency table.
+
+
+HAND FILTERED WORDS TO BE EXCLUDED FORM STOP LIST :
+-----------------------------------------------------------------
+1. hurricane
+2. storm
+3. tropical
+4. state
